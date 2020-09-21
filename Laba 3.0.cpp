@@ -5,7 +5,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian"); // русификация консоли
 	int mass[50], n, summa=0, kol=0;
-	printf("Введите количество членов прогрессии\n");
+	printf("Введите количество членов последовательности\n");
 	scanf_s("%d", &n);
 	for (int i = 0; i < n; i++)
 	{
